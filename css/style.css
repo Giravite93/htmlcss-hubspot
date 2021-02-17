@@ -21,9 +21,6 @@ body {
 .float-l {
 	float: left;
 }
-.float-r {
-	float: right;
-}
 ul li {
 	list-style-type: none;
 }
@@ -42,6 +39,9 @@ a {
 	color: white;
 	background-color: #fe775a;
 	border-radius: 9px;
+}
+.text-right {
+	text-align: right;
 }
 /*HEADER*/
 .over-menu {
