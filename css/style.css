@@ -60,6 +60,14 @@ main {
 .center-text {
 	text-align: center;
 }
+.h-color {
+	color: #33475b;
+}
+.card {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px 3px #e6ecf1;
+}
 /*HEADER*/
 .over-menu {
 	background-color: #f4f9fd;
@@ -132,7 +140,7 @@ main {
 }
 .teaser a {
 	display: inline-block;
-	padding: 3% 3%;
+	padding: 3%;
 }
 .teaser p:last-child {
 	font-size: 10px;
@@ -143,7 +151,50 @@ main {
 	width: 50%;
 	margin: auto;
 }
+
 .first-row img {
 	width: 50%;
 	display: inline-block;
+}
+/*second-row*/
+.second-row {
+	padding: 3%;
+	margin: auto;
+}
+.learn-more {
+	width: 40%;
+	text-align: center;
+}
+.learn-more img {
+	display: block;
+	padding: 4% 0;
+	width: 50%;
+	margin: auto;
+}
+.learn-more a {
+	display: inline-block;
+	margin-top: 15px;
+	padding: 20px 50px;
+}
+.free-hub {
+	width: 60%;
+	padding: 50px 0;
+}
+.free-hub h3,
+.line {
+	display: inline-block;
+	vertical-align: middle;
+}
+.line {
+	border-bottom: 2px solid #32495b;
+	width: 50%;
+	margin-left: 50px;
+}
+.free-hub ul li {
+	display: inline-block;
+	padding-top: 5%;
+}
+.free-hub ul li i {
+	color: #fe775a;
+	margin: 0 10px;
 }
