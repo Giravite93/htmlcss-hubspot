@@ -30,7 +30,8 @@ a {
 .two-col {
 	width: 50%;
 }
-.text-content li a {
+.text-content li a,
+.text-content {
 	color: #32495b;
 }
 .btn {
@@ -95,8 +96,8 @@ img {
 .teaser {
 	position: relative;
 	background-image: url("../img/jumbotron.png");
-	height: 500px;
-	background-size: 1161px;
+	height: 600px;
+	background-size: 1233px;
 	background-repeat: no-repeat;
 	background-position: 100% 100%;
 	background-color: #fff3ee;
@@ -110,4 +111,23 @@ img {
 	background-color: #afebe4;
 	border-top: 3px solid #33475b;
 	border-bottom: 3px solid #33475b;
+}
+.teaser-text {
+	width: 50%;
+	padding-top: 5%;
+}
+.teaser-text h1 {
+	color: #33475b;
+	font-size: 65px;
+}
+.teaser p {
+	padding: 3% 0;
+	line-height: 37px;
+}
+.teaser a {
+	display: inline-block;
+	padding: 3% 3%;
+}
+.teaser p:last-child {
+	font-size: 10px;
 }
