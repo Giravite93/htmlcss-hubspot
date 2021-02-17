@@ -21,6 +21,9 @@ body {
 .float-l {
 	float: left;
 }
+.float-r {
+	float: right;
+}
 ul li {
 	list-style-type: none;
 }
@@ -33,6 +36,13 @@ a {
 .text-content li a {
 	color: #32495b;
 }
+.btn {
+	padding: 10px;
+	border: 1px solid #fe775a;
+	color: white;
+	background-color: #fe775a;
+	border-radius: 9px;
+}
 /*HEADER*/
 .over-menu {
 	background-color: #f4f9fd;
@@ -40,14 +50,24 @@ a {
 }
 .over-menu ul li {
 	display: inline-block;
-	padding: 10px;
+	padding: 10px 0;
 }
-.over-menu ul li:first-child a {
+.over-menu .text-content li:first-child a {
 	border-right: 1px solid #899397;
 }
-.over-menu .text-content {
-	padding: 3%;
+.over-menu {
+	padding: 1%;
 }
 .over-menu .text-content li:first-child a i:nth-child(2) {
 	padding-right: 20px;
+}
+.search-login li {
+	margin-left: 20px;
+}
+.over-menu .search-login i {
+	color: #00a4bd;
+}
+.over-menu .search-login li:nth-child(2) a {
+	background-color: white;
+	color: #fe775a;
 }
