@@ -9,3 +9,45 @@
 body {
 	font-family: "Montserrat", sans-serif;
 }
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+.float-l {
+	float: left;
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+.two-col {
+	width: 50%;
+}
+.text-content li a {
+	color: #32495b;
+}
+/*HEADER*/
+.over-menu {
+	background-color: #f4f9fd;
+	border-bottom: 1px solid #32495b;
+}
+.over-menu ul li {
+	display: inline-block;
+	padding: 10px;
+}
+.over-menu ul li:first-child a {
+	border-right: 1px solid #899397;
+}
+.over-menu .text-content {
+	padding: 3%;
+}
+.over-menu .text-content li:first-child a i:nth-child(2) {
+	padding-right: 20px;
+}
