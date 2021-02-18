@@ -44,8 +44,8 @@ a {
 }
 .four-col-up,
 .four-col-down {
-	border-bottom: 2px solid white;
-	border-right: 2px solid white;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
 	padding: 1%;
 }
 .four-col-up:nth-child(4),
