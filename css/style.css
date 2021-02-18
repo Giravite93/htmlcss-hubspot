@@ -39,9 +39,11 @@ a {
 .three-col:nth-child(2) {
 	margin: 0 5%;
 }
+.four-col {
+	width: 25%;
+}
 .four-col-up,
 .four-col-down {
-	width: 25%;
 	border-bottom: 2px solid white;
 	border-right: 2px solid white;
 	padding: 1%;
@@ -83,7 +85,7 @@ a {
 	padding: 2% 0;
 }
 .p-text {
-	padding: 2% 0;
+	padding: 5% 0;
 	line-height: 37px;
 }
 .center-text {
@@ -174,6 +176,9 @@ a {
 .teaser-text {
 	width: 50%;
 	padding-top: 5%;
+}
+.teaser .teaser-text p:last-child {
+	padding: 1% 0;
 }
 .teaser-text h1 {
 	color: #33475b;
@@ -281,4 +286,40 @@ a {
 .float-table {
 	width: 100%;
 	padding-bottom: 5%;
+}
+/*Third Section*/
+.third-section div.p-text {
+	font-size: 50px;
+	font-weight: 900;
+}
+.third-section .number.p-text,
+.third-section .sub-number.p-text {
+	padding: 3% 37%;
+}
+.third-section .sub-number.p-text {
+	font-weight: 500;
+}
+.third-section .two-col {
+	padding: 1% 0;
+}
+.logo-agency > li {
+	display: inline-block;
+	width: 20%;
+	margin-right: 5%;
+	vertical-align: middle;
+}
+.logo-agency > li:last-child {
+	margin-right: 0;
+}
+.sub-logo-agency li {
+	height: 50px;
+	margin-bottom: 15%;
+}
+.sub-logo-agency img {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
+.woman {
+	width: 50%;
 }
