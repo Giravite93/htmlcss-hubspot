@@ -323,3 +323,47 @@ a {
 .woman {
 	width: 50%;
 }
+.third-section .teaser-text {
+	padding-left: 5%;
+}
+/*FOOTER*/
+footer {
+	background-color: #32495b;
+	padding: 2% 5% 0 5%;
+}
+footer .float-table {
+	padding: 0;
+}
+
+footer h3 {
+	color: white;
+}
+footer .p-text {
+	color: #dadee0;
+	font-weight: 400;
+}
+footer .btn {
+	background-color: #dadee0;
+	border-color: #dadee0;
+	color: #32495b;
+}
+footer .menu i {
+	margin: 0;
+	color: #dadee0;
+}
+footer .social {
+	padding: 5% 0;
+}
+footer .lenguage {
+	color: #cbd6e2;
+	border-bottom: 1px solid #cbd6e2;
+}
+footer .copy-stuff img {
+	width: 35%;
+}
+footer .copy-stuff .p-text {
+	padding: 1% 0;
+}
+footer .stuff {
+	color: #cbd6e2;
+}
