@@ -39,6 +39,14 @@ a {
 .three-col:nth-child(2) {
 	margin: 0 5%;
 }
+.four-col {
+	width: 25%;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+}
+.four-col:last-child {
+	border-right: none;
+}
 .text-content li a,
 .text-content {
 	color: #32495b;
@@ -251,4 +259,21 @@ a {
 }
 .head-second-section h2 {
 	font-size: 38px;
+}
+.float-table {
+	width: 100%;
+	padding-bottom: 5%;
+}
+.four-col {
+	padding: 2%;
+}
+.four-col img {
+	width: auto;
+	height: 50px;
+	display: inline-block;
+}
+.four-col h3 {
+	font-size: 50px;
+	font-weight: 900;
+	padding: 10% 0;
 }
