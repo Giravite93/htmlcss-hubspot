@@ -119,6 +119,19 @@ footer .btn {
 	color: white;
 }
 /*HEADER*/
+
+/*Scroll con menu Fixed*/
+html:not([data-scroll="0"]) body {
+	padding-top: 4%;
+}
+html:not([data-scroll="0"]) .over-menu {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+/*End Scroll con menu Fixed*/
+
 .over-menu {
 	background-color: #f4f9fd;
 	border-bottom: 1px solid #32495b;
@@ -338,7 +351,8 @@ footer .float-table {
 footer h3 {
 	color: white;
 }
-footer .p-text {
+footer .p-text,
+.leng a {
 	color: #dadee0;
 	font-weight: 400;
 }
