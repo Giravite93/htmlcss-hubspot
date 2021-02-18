@@ -82,6 +82,9 @@ footer .btn {
 .text-right {
 	text-align: right;
 }
+.padding-td-1 {
+	padding: 1% 0;
+}
 .padding-td-2 {
 	padding: 2% 0;
 }
