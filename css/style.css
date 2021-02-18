@@ -36,6 +36,12 @@ main {
 .two-col {
 	width: 50%;
 }
+.three-col {
+	width: 30%;
+}
+.three-col:nth-child(2) {
+	margin: 0 5%;
+}
 .text-content li a,
 .text-content {
 	color: #32495b;
@@ -67,6 +73,15 @@ main {
 	background-color: white;
 	border-radius: 10px;
 	box-shadow: 0px 0px 15px 3px #e6ecf1;
+}
+.line {
+	border-bottom: 2px solid #32495b;
+	width: 50%;
+	margin-left: 50px;
+}
+.icon-check {
+	color: #fe775a;
+	margin: 0 10px;
 }
 /*HEADER*/
 .over-menu {
@@ -159,13 +174,14 @@ main {
 /*second-row*/
 .second-row {
 	padding: 3%;
-	margin: auto;
+	width: 100%;
 }
 .learn-more {
 	width: 40%;
 	text-align: center;
 }
-.learn-more img {
+.learn-more img,
+.three-col img {
 	display: block;
 	padding: 4% 0;
 	width: 50%;
@@ -185,16 +201,39 @@ main {
 	display: inline-block;
 	vertical-align: middle;
 }
-.line {
-	border-bottom: 2px solid #32495b;
-	width: 50%;
-	margin-left: 50px;
-}
 .free-hub ul li {
 	display: inline-block;
 	padding-top: 5%;
 }
-.free-hub ul li i {
-	color: #fe775a;
-	margin: 0 10px;
+
+/*third-row*/
+.third-row {
+	width: 100%;
+	padding: 50px 0;
+}
+.three-col {
+	padding: 2% 4%;
+}
+.three-col img {
+	width: auto;
+	height: 200px;
+}
+.third-row .three-col .line {
+	margin: 0;
+	width: 100%;
+}
+.three-col li {
+	text-align: left;
+	line-height: 30px;
+}
+.three-col .icon-check {
+	margin-left: 0;
+}
+.third-row h3 {
+	padding: 5% 0;
+}
+.third-row a {
+	display: inline-block;
+	margin-top: 50px;
+	padding: 20px 50px;
 }
