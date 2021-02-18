@@ -18,9 +18,6 @@ ul li {
 a {
 	text-decoration: none;
 }
-main {
-	background-color: #f4f9fd;
-}
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -57,10 +54,10 @@ main {
 	text-align: right;
 }
 .padding-td {
-	padding: 1% 0;
+	padding: 2% 0;
 }
 .p-text {
-	padding: 3% 0;
+	padding: 2% 0;
 	line-height: 37px;
 }
 .center-text {
@@ -82,6 +79,9 @@ main {
 .icon-check {
 	color: #fe775a;
 	margin: 0 10px;
+}
+.white-color {
+	color: white;
 }
 /*HEADER*/
 .over-menu {
@@ -161,6 +161,9 @@ main {
 	font-size: 10px;
 }
 /*MAIN*/
+.first-section {
+	background-color: #f4f9fd;
+}
 /*first-row*/
 .first-row {
 	width: 50%;
@@ -236,4 +239,16 @@ main {
 	display: inline-block;
 	margin-top: 50px;
 	padding: 20px 50px;
+}
+/*Second Section*/
+.second-section {
+	background: rgb(0, 169, 185);
+	background: linear-gradient(
+		90deg,
+		rgba(0, 169, 185, 1) 0%,
+		rgba(0, 187, 168, 1) 100%
+	);
+}
+.head-second-section h2 {
+	font-size: 38px;
 }
